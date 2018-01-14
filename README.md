@@ -8,5 +8,5 @@ Biblioteca para el comportamiento dinámico de aplicaciones web</h2>
 </script>
 ```
 
-### Also requiere JQuery 3.2.1 || También hace uso de JQuery 3.2.1
+### Also requiere JQuery 3.2.1 and FancyBox || También hace uso de JQuery 3.2.1 y Fancybox
 
