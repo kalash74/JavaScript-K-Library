@@ -260,6 +260,8 @@ function _escribirVideo(){
 		var miVideo = document.createElement('video');
 		miVideo.classList.add('embed-responsive-item');
 		miVideo.classList.add('fillWidth');
+		miVideo.classList.add('animated');
+		miVideo.classList.add('fadeIn');
 		miVideo.setAttribute('id','cover-video');
 		/*Si la página esta en un idioma u otro debera alternar el video y el poster*/
 		miVideo.setAttribute('poster','img/gif/title_es.gif');
@@ -289,6 +291,8 @@ function _escribirBlog(){
 		$("#pie").removeClass('fijarPie');
 		var miBlog = document.createElement('div');
 		miBlog.classList.add('container');
+		miBlog.classList.add('animated');
+		miBlog.classList.add('fadeIn');
 		miBlog.setAttribute('id','blog-container');
 		//col1.innerHTML=_retornaDonacion();
 		//fila.appendChild(createElement('br'));
@@ -322,7 +326,11 @@ function _escribirDonacion(){
 		col1.setAttribute('id','donation_left');
 		col2.setAttribute('id','donation_rigth');
 		col1.classList.add('col-sm-8');
+		col1.classList.add('animated');
+		col1.classList.add('fadeIn');
 		col2.classList.add('col-sm-4');
+		col2.classList.add('animated');
+		col2.classList.add('fadeIn');
 		col2.innerHTML="<img src=img/donation.jpg id=\"donation\" img\" class=\"img-fluid rounded\">";
 		fila.appendChild(col1);
 		fila.appendChild(col2);
@@ -339,8 +347,12 @@ function _escribirDonacion(){
 		col1.setAttribute('id','donation_left');
 		col2.setAttribute('id','donation_rigth');
 		col1.classList.add('col-sm-8');
+		col1.classList.add('animated');
+		col1.classList.add('fadeIn');
 		col2.classList.add('col-sm-4');
-		col2.innerHTML="<img src=img/donation.jpg id=\"donation\" img\" class=\"img-fluid rounded\">";
+		col2.classList.add('animated');
+		col2.classList.add('fadeIn');
+		col2.innerHTML="<img src=img/donation.jpg id=\"donation\" img\" class=\"img-fluid animated fadeIn rounded\">";
 		document.getElementById("fila_donation").appendChild(col1);
 		document.getElementById("fila_donation").appendChild(col2);
 	}
@@ -363,8 +375,12 @@ function _escribirAcerca(){
 		col1.setAttribute('id','about_left');
 		col2.setAttribute('id','about_rigth');
 		col1.classList.add('col-sm-8');
+		col1.classList.add('animated');
+		col1.classList.add('fadeIn');
 		col2.classList.add('col-sm-4');
-		col2.innerHTML="<img src=img/donation.jpg id=\"about\" img\" class=\"img-fluid rounded\">";
+		col2.classList.add('animated');
+		col2.classList.add('fadeIn');
+		col2.innerHTML="<img src=img/donation.jpg id=\"donation\" img\" class=\"img-fluid animated fadeIn rounded\">";
 		fila.appendChild(col1);
 		fila.appendChild(col2);
 		miAcerca.appendChild(fila);
@@ -380,7 +396,11 @@ function _escribirAcerca(){
 		col1.setAttribute('id','about_left');
 		col2.setAttribute('id','about_rigth');
 		col1.classList.add('col-sm-8');
+		col1.classList.add('animated');
+		col1.classList.add('fadeIn');
 		col2.classList.add('col-sm-4');
+		col2.classList.add('animated');
+		col2.classList.add('fadeIn');
 		col2.innerHTML="<img src=img/donation.jpg id=\"about\" img\" class=\"img-fluid rounded\">";
 		document.getElementById("fila_about").appendChild(col1);
 		document.getElementById("fila_about").appendChild(col2);
@@ -404,7 +424,11 @@ function _escribirContacto(){
 		col1.setAttribute('id','contact_left');
 		col2.setAttribute('id','contact_rigth');
 		col1.classList.add('col-sm-8');
+		col1.classList.add('animated');
+		col1.classList.add('fadeIn');
 		col2.classList.add('col-sm-4');
+		col2.classList.add('animated');
+		col2.classList.add('fadeIn');
 		col2.innerHTML="<img src=img/donation.jpg id=\"contact\" img\" class=\"img-fluid rounded\">";
 		fila.appendChild(col1);
 		fila.appendChild(col2);
@@ -421,7 +445,11 @@ function _escribirContacto(){
 		col1.setAttribute('id','contact_left');
 		col2.setAttribute('id','contact_rigth');
 		col1.classList.add('col-sm-8');
+		col1.classList.add('animated');
+		col1.classList.add('fadeIn');
 		col2.classList.add('col-sm-4');
+		col2.classList.add('animated');
+		col2.classList.add('fadeIn');
 		col2.innerHTML="<img src=img/donation.jpg id=\"contact\" img\" class=\"img-fluid rounded\">";
 		document.getElementById("fila_contact").appendChild(col1);
 		document.getElementById("fila_contact").appendChild(col2);
