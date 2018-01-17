@@ -9,4 +9,5 @@ Biblioteca para el comportamiento dinámico de aplicaciones web</h2>
 ```
 
 ### Also requiere JQuery 3.2.1 and FancyBox || También hace uso de JQuery 3.2.1 y Fancybox
-
+### Also requiere animate.css from || También hace uso de animate.css de
+### https://github.com/daneden/animate.css
